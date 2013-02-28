@@ -9,9 +9,13 @@ Strong public-key encryption for arbitrary length data.
 Overview
 --------
 
-Strongroom combines RSA public-key encryption and AES symmetric-key encryption to encrypt arbitrary length data with a public key, such that it can only be decrypted with the corresponding private key.
+Strongroom combines RSA public-key encryption and AES symmetric-key encryption
+to encrypt arbitrary length data with a public key, such that it can only be
+decrypted with the corresponding private key.
 
-Ruby's OpenSSL bindings do all the heavy lifting; Strongroom acts as simple glue-code and as a central point for testing, documentation, collaboration and peer review.
+Ruby's OpenSSL bindings do all the heavy lifting; Strongroom acts as simple
+glue-code and as a central point for testing, documentation, collaboration and
+peer review.
 
 
 Usage
@@ -36,14 +40,6 @@ Strongroom::Decryptor.new("spec/fixtures/private_key").decrypt(enigma)
 ```
 
 
-Status
-------
-
-[![http://travis-ci.org/pda/strongroom.png](http://travis-ci.org/pda/strongroom.png)](http://travis-ci.org/#!/pda/strongroom)
-
-Implementation is functionally complete. Documentation is work in progress.
-
-
 Reading List
 ------------
 
@@ -59,5 +55,5 @@ Reading List
 License
 -------
 
-© 2011 Learnable Pty Ltd  
+© 2011–2013 Learnable Pty Ltd
 Open Source under the [The MIT License](http://www.opensource.org/licenses/mit-license.php).
