@@ -1,6 +1,8 @@
 Strongroom
 ==========
 
+[![Build Status](https://travis-ci.org/pda/strongroom.png?branch=master)](https://travis-ci.org/pda/strongroom)
+
 Strong public-key encryption for arbitrary length data.
 
 
